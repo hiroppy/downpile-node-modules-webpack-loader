@@ -43,5 +43,6 @@ module.exports = {
 
 ```sh
 $ npm i
-$ npm start
+$ make setup
+$ npm test
 ```
