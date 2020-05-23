@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`downpileCode should apply polyfill 1`] = `
+Object {
+  "isScopedVersion": "no",
+  "src": "import \\"core-js/modules/es6.promise\\";
+import \\"core-js/modules/es6.object.to-string\\";
+new Promise(function () {});",
+}
+`;
+
+exports[`downpileCode should downpile to es5 1`] = `
+Object {
+  "isScopedVersion": "no",
+  "src": "var test = 1;",
+}
+`;
+
+exports[`downpileCode shouldn't downpile 1`] = `
+Object {
+  "isScopedVersion": "yes",
+  "src": "var test = 1",
+}
+`;

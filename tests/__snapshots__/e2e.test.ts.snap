@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`e2e nested es5 1`] = `
+Object {
+  "react-lifecycles-compat-3.0.4": Array [
+    "react-lifecycles-compat",
+  ],
+}
+`;
+
+exports[`e2e simple es5 1`] = `
+Object {
+  "ansi-styles-4.2.1": Array [
+    "ansi-styles",
+  ],
+  "chalk-4.0.0": Array [
+    "_.templates",
+    "_.util",
+    "chalk",
+  ],
+  "color-convert-2.0.1": Array [
+    "_.conversions",
+    "_.route",
+    "color-convert",
+  ],
+}
+`;

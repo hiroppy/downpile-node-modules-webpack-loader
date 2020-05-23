@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modules nested should return hit module 1`] = `
+Object {
+  "depth": 1,
+  "dirName": "object-assign-4.1.1",
+  "integrity": "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=",
+  "name": "object-assign",
+  "version": "4.1.1",
+}
+`;
+
+exports[`Modules nested should return hit module 2`] = `
+Object {
+  "depth": 1,
+  "dirName": "object-assign-4.1.1",
+  "integrity": "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=",
+  "name": "object-assign",
+  "version": "4.1.1",
+}
+`;
+
+exports[`Modules nested should return hit module 3`] = `
+Object {
+  "depth": 0,
+  "dirName": "object-assign-3.0.0",
+  "integrity": "sha1-m+3VygiXlJvKR+f/QIBi1Un1h/I=",
+  "name": "object-assign",
+  "version": "3.0.0",
+}
+`;
+
+exports[`Modules nested should return hit module 4`] = `
+Object {
+  "depth": 1,
+  "dirName": "object-assign-2.1.1",
+  "integrity": "sha1-Q8NuXVaf+OSBbE76i+AtJpZ8GKo=",
+  "name": "object-assign",
+  "version": "2.1.1",
+}
+`;
+
+exports[`Modules nested should return hit module 5`] = `null`;
+
+exports[`Modules simple should convert module info from context 1`] = `
+Object {
+  "depth": 0,
+  "name": "foo",
+  "parent": "",
+}
+`;
+
+exports[`Modules simple should convert module info from context 2`] = `
+Object {
+  "depth": 1,
+  "name": "bar",
+  "parent": "foo",
+}
+`;
+
+exports[`Modules simple should convert module info from context 3`] = `
+Object {
+  "depth": 2,
+  "name": "baz",
+  "parent": "bar",
+}
+`;
+
+exports[`Modules simple should get data from module cache 1`] = `
+Object {
+  "isScopedVersion": "no",
+}
+`;
+
+exports[`Modules simple should push data to module cache 1`] = `
+Object {
+  "modules": Object {
+    "foo": Object {
+      "isScopedVersion": "no",
+    },
+  },
+  "targetVersion": 5,
+}
+`;
+
+exports[`Modules simple should return hit module 1`] = `null`;
+
+exports[`Modules simple should return hit module 2`] = `
+Object {
+  "depth": 0,
+  "dirName": "object-assign-4.1.1",
+  "integrity": "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=",
+  "name": "object-assign",
+  "version": "4.1.1",
+}
+`;
+
+exports[`Modules simple should return hit module 3`] = `
+Object {
+  "depth": 0,
+  "dirName": "chalk-4.0.0",
+  "integrity": "sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==",
+  "name": "chalk",
+  "version": "4.0.0",
+}
+`;
+
+exports[`Modules simple should return module cache 1`] = `
+Object {
+  "modules": Object {},
+  "targetVersion": 5,
+}
+`;

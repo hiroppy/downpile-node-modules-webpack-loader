@@ -1,0 +1,25 @@
+{
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "ignoredLibraries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "polyfill": {
+      "type": "boolean"
+    },
+    "ecmaVersion": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        }
+      ]
+    }
+  }
+}

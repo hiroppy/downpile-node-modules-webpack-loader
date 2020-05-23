@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cache should create a filename 1`] = `"esprima"`;
+
+exports[`Cache should create a filename 2`] = `"_.lib.source-map-consumer"`;
+
+exports[`Cache should create a filename 3`] = `"__.lib.shared"`;
+
+exports[`Cache should create a filename 4`] = `"_.base64"`;
+
+exports[`Cache should create a filename 5`] = `"__.__.__.base64"`;
+
+exports[`Cache should return a cache dir 1`] = `".cache-test/downpile-node-modules-webpack-loader"`;
+
+exports[`Cache should return a file path 1`] = `".cache-test/downpile-node-modules-webpack-loader/mn/fn"`;
+
+exports[`Cache should return the loader name 1`] = `"downpile-node-modules-webpack-loader"`;
+
+exports[`Cache should write/read data 1`] = `"foo!"`;
+
+exports[`Cache should write/read data 2`] = `"foo!"`;

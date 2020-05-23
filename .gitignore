@@ -1,0 +1,7 @@
+node_modules
+.env
+coverage
+node_trace*
+.eslintcache
+lib
+dist

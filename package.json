@@ -1,0 +1,57 @@
+{
+  "name": "downpile-node-modules-webpack-loader",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "description": "",
+  "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me)",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "build": "tsc",
+    "rm:lib": "rimraf lib",
+    "lint": "eslint . --cache --ext .js,.ts,.tsx",
+    "fmt": "prettier --loglevel warn --write \"**/*.{js,ts,tsx,md,json,css}\"",
+    "release": "standard-version",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "acorn": "^7.1.1",
+    "del": "^5.1.0",
+    "exit-hook": "^2.2.0",
+    "find-cache-dir": "^3.3.1",
+    "flatten-package-lock-deps": "0.0.4",
+    "loader-utils": "^2.0.0",
+    "schema-utils": "^2.6.6"
+  },
+  "devDependencies": {
+    "@types/babel__preset-env": "7.9.0",
+    "@types/find-cache-dir": "3.2.0",
+    "@types/jest": "25.2.3",
+    "@types/loader-utils": "1.1.3",
+    "@types/node": "14.0.5",
+    "@types/rimraf": "3.0.0",
+    "@types/webpack": "4.41.13",
+    "@typescript-eslint/eslint-plugin": "3.0.0",
+    "@typescript-eslint/parser": "3.0.0",
+    "eslint": "7.1.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-jest": "23.13.1",
+    "eslint-plugin-prettier": "3.1.3",
+    "husky": "4.2.5",
+    "jest": "26.0.1",
+    "lint-staged": "10.2.6",
+    "prettier": "2.0.5",
+    "rimraf": "3.0.2",
+    "standard-version": "8.0.0",
+    "ts-jest": "26.0.0",
+    "typescript": "3.9.3",
+    "webpack": "4.43.0"
+  }
+}
